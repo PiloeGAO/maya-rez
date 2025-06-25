@@ -1,6 +1,6 @@
 name = "maya"
 
-version = "2025.2-r.1"
+version = "2026.1"
 
 authors = [
     "Autodesk"
@@ -16,4 +16,4 @@ uuid = "autodesk.maya"
 build_command = ""
 
 def commands():
-    env.PATH.prepend("C:\\PROGRA~1\\Autodesk\\Maya2025\\bin")
+    env.PATH.prepend("C:\\PROGRA~1\\Autodesk\\Maya2026\\bin")

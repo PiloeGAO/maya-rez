@@ -1,6 +1,6 @@
 name = "maya"
 
-version = "2027.2"
+version = "2027.2-r.1"
 
 authors = [
     "Autodesk"
@@ -10,6 +10,10 @@ description = \
     """
     Animation and VFX  software.
     """
+
+requires = [
+    "python-3.13.9",
+]
 
 uuid = "autodesk.maya"
 
